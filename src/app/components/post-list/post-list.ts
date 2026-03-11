@@ -32,7 +32,7 @@ export class PostList {
   private transformPosts(posts: PostInterface[]): PostInterface[] {
     return posts.map((post) => ({
       ...post,
-      body: `${post.body} and a new string`,
+      body: `${post.body} and a new string test`,
     }));
   }
 }
